@@ -1,0 +1,9 @@
+# Kronos Films — the reactors in motion
+> Computed films of the three Kronos machines, rendered from the frozen design geometry.
+
+/ (/films/): film gallery — Hyperion (breeder), Aegis (burner), MetroVolt (burner). 4K hero loops + 30s/60s/4-minute narrated features.
+
+Products:
+- Hyperion — strategic-isotope spherical-tokamak breeder
+- Aegis — fixed-installation D-3He burner
+- MetroVolt — data-center D-3He burner (same burner core as Aegis)

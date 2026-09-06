@@ -1,0 +1,98 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kronos Films — The Reactors in Motion</title>
+<meta name="description" content="Cinematic films of the Kronos machines — the Hyperion breeder and the Aegis and MetroVolt burners — computed reactor renders, hero loops, and narrated features.">
+<link rel="canonical" href="https://kronosfusionenergy.com/films/">
+<meta property="og:title" content="Kronos Films — The Reactors in Motion">
+<meta property="og:description" content="Computed reactor films of the Hyperion breeder and the Aegis & MetroVolt burners.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="kfe-shell.css"><script>window.KFE_SECTION='films';</script><script src="kfe-shell.js" defer></script>
+<style>
+:root{--bg:#1c232e;--panel:#252f3c;--line:rgba(150,165,190,.18);--gold:#d4ad5c;--ink:#e6ebf1;--dim:#aeb9c9;--mut:#8395ab;
+  --mono:'Space Mono',monospace;--sans:'Space Grotesk',system-ui,sans-serif}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.6}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px 90px}
+.kick{font-family:var(--mono);font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold)}
+.hero{padding:44px 0 8px}
+.hero h1{font-size:clamp(30px,4.6vw,46px);font-weight:700;line-height:1.05;margin:.24em 0 .2em;letter-spacing:-.015em;text-wrap:balance}
+.hero p{font-size:18px;color:var(--dim);max-width:64ch;margin:0}
+.prod{margin-top:52px;scroll-margin-top:90px}
+.phead{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;border-left:4px solid var(--ac);padding-left:16px;margin-bottom:18px}
+.phead h2{font-size:26px;font-weight:700;margin:0;letter-spacing:-.01em}
+.phead .tag{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ac)}
+.phead .fn{color:var(--mut);font-size:14px}
+.loopwrap{position:relative;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:#0e1319;box-shadow:0 16px 40px rgba(0,0,0,.4)}
+.loopwrap video{display:block;width:100%;height:auto}
+.loopwrap .tagline{position:absolute;left:0;right:0;bottom:0;padding:34px 22px 16px;font-size:14px;color:#e6ebf1;
+  background:linear-gradient(0deg,rgba(10,14,20,.82),transparent);font-family:var(--mono);letter-spacing:.04em}
+.films{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:18px}
+.filmcard{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.filmcard video{display:block;width:100%;height:auto;background:#0e1319;aspect-ratio:16/9;object-fit:cover}
+.filmcard .fmeta{padding:12px 15px}
+.filmcard .ft{font-size:15px;font-weight:600;margin:0}
+.filmcard .fd{font-size:12.5px;color:var(--mut);margin:3px 0 0;font-family:var(--mono);letter-spacing:.03em}
+.note{margin-top:48px;padding:16px 20px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:10px;color:var(--dim);font-size:14px}
+@media (prefers-reduced-motion:reduce){.loopwrap video{display:none}}
+</style>
+</head><body>
+<div class="wrap">
+  <header class="hero">
+    <span class="kick">Kronos Fusion Energy · Films</span>
+    <h1>The reactors, in motion.</h1>
+    <p>Computed films of the three Kronos machines — rendered from the same frozen geometry the physics runs against. The breeder that makes the fuel; the two burners that turn it into power.</p>
+  </header>
+
+  <section class="prod" id="hyperion" style="--ac:#5a79ad">
+    <div class="phead"><span class="tag">Breeder</span><h2>Hyperion</h2><span class="fn">Strategic-isotope spherical tokamak</span></div>
+    <div class="loopwrap"><video muted loop playsinline preload="none" data-src="viz/hyperion_hero_loop_4k.mp4"></video>
+      <div class="tagline">Hyperion — 4K hero loop</div></div>
+    <div class="films">
+      <div class="filmcard"><video controls preload="metadata" src="viz/hyperion_4min_narrated.mp4"></video>
+        <div class="fmeta"><p class="ft">The Hyperion Reactor — narrated feature</p><p class="fd">4:00 · narrated · 1080p</p></div></div>
+      <div class="filmcard"><video controls preload="metadata" src="viz/hyperion_60s.mp4"></video>
+        <div class="fmeta"><p class="ft">Hyperion in sixty seconds</p><p class="fd">1:00 · computed reactor film</p></div></div>
+    </div>
+  </section>
+
+  <section class="prod" id="aegis" style="--ac:#c1863f">
+    <div class="phead"><span class="tag">Burner</span><h2>Aegis</h2><span class="fn">Fixed defense installation</span></div>
+    <div class="loopwrap"><video muted loop playsinline preload="none" data-src="viz/aegis_hero_loop_4k.mp4"></video>
+      <div class="tagline">Aegis — 4K hero loop</div></div>
+    <div class="films">
+      <div class="filmcard"><video controls preload="metadata" src="viz/aegis_4min_narrated.mp4"></video>
+        <div class="fmeta"><p class="ft">The Aegis Reactor — narrated feature</p><p class="fd">4:00 · narrated · 1080p</p></div></div>
+      <div class="filmcard"><video controls preload="metadata" src="viz/aegis_30s.mp4"></video>
+        <div class="fmeta"><p class="ft">Aegis — 30-second film</p><p class="fd">0:30 · clean · 1080p</p></div></div>
+    </div>
+  </section>
+
+  <section class="prod" id="metrovolt" style="--ac:#3f9b72">
+    <div class="phead"><span class="tag">Burner</span><h2>MetroVolt</h2><span class="fn">Data-center generation</span></div>
+    <div class="loopwrap"><video muted loop playsinline preload="none" data-src="viz/metrovolt_hero_loop_4k.mp4"></video>
+      <div class="tagline">MetroVolt — 4K hero loop</div></div>
+    <div class="films">
+      <div class="filmcard"><video controls preload="metadata" src="viz/metrovolt_30s.mp4"></video>
+        <div class="fmeta"><p class="ft">MetroVolt — 30-second film</p><p class="fd">0:30 · clean · 1080p</p></div></div>
+    </div>
+  </section>
+
+  <div class="note">All films are computed renders from the frozen Kronos geometry — the same design point the physics is evaluated against. Aegis and MetroVolt share one burner core in two housings. For broadcast-quality masters or press use, see <a href="/press" style="color:var(--gold)">press</a>.</div>
+</div>
+<script>
+// lazy: only load + play a hero loop once it scrolls into view; pause when it leaves
+(function(){
+  var loops=[].slice.call(document.querySelectorAll('.loopwrap video[data-src]'));
+  function load(v){ if(!v.src)v.src=v.dataset.src; var p=v.play(); if(p&&p.catch)p.catch(function(){}); }
+  // eager-load the top banner so the page plays at rest; lazy-load the rest
+  if(loops[0])load(loops[0]);
+  if(!('IntersectionObserver' in window)){loops.forEach(load);return;}
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){
+    var v=e.target;
+    if(e.isIntersecting)load(v);
+    else if(v.src)v.pause();
+  });},{threshold:.2});
+  loops.slice(1).forEach(function(v){io.observe(v);});
+})();
+</script>
+</body></html>
